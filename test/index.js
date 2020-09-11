@@ -5,8 +5,8 @@ const test = require('ava')
 const title = require('../')
 
 test(t => {
-  const from = 'aPi 2.0: lOG-in with zeit, new dOCs & more'
-  const to = 'API 2.0: Log-In with ZEIT, New Docs & More'
+  const from = 'aPi 2.0: lOG-in with vercel, new dOCs & more'
+  const to = 'API 2.0: Log-In with Vercel, New Docs & More'
 
   t.is(title(from), to)
 })
@@ -26,8 +26,8 @@ test(t => {
 })
 
 test(t => {
-  const from = 'noW deSktop and now cLI are prODUCts of zeIt'
-  const to = 'Now Desktop and Now CLI Are Products of ZEIT'
+  const from = 'noW deSktop and now cLI are prODUCts of verCel'
+  const to = 'Now Desktop and Now CLI Are Products of Vercel'
 
   t.is(title(from), to)
 })
